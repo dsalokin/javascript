@@ -1,0 +1,12 @@
+# Игнорирование директорий node_modules и logs  
+node_modules/  
+logs/ 
+test/
+**/.DS_Store
+**/.idea 
+# Игнорирование всех файлов с расширением .log  
+*.log  
+# Игнорирование файла конфигурации  
+.env  
+# Исключение .gitignore-файла  
+!.gitignore  
